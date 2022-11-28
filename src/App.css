@@ -39,27 +39,22 @@
 body{
   background: #007bff;
   background: linear-gradient(to right, #0062E6, #33AEFF);
+  font-family: roboto;
 }
-.col-lg-4{
-  margin-top: 80px;
-}
-.pg-1,.pg-2,.pg-3{
+
+.pricing1{
   background-color: white;
   border-radius: 7%;
-  padding:40px;
   width:300px;
   height:460px;
   transition:all 0.2s ease-in;
 }
-.pg-1:hover, .pg-2:hover, .pg-3:hover{ 
+
+.pricing:hover{ 
   transform:translate(0,-0.50rem);
+
 }
-.month{
-  font-size:13px;
-}
-ul li{
-  font-family: roboto;
-}
+
 .pricing .btn {
   width:220px;
   font-size: 80%;
@@ -70,7 +65,10 @@ ul li{
   opacity: 0.7;
   transition: all 0.2s;
 }
-.pricing .pg-1:hover .btn {
+/* .btn:hover{
+  background-color:blue;
+} */
+/* .pricing .pg-1:hover .btn {
   opacity: 5;
 }
 .pricing .pg-2:hover .btn{
@@ -85,5 +83,5 @@ ul li{
 .fs{
   font-size:15px;
   letter-spacing: 0.1rem;
-}
+} */
 
